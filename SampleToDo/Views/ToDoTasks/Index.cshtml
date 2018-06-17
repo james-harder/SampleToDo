@@ -1,0 +1,50 @@
+﻿@model IEnumerable<SampleToDo.Models.ToDoTask>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div>
+    <span class="colLabel">
+        @Html.DisplayNameFor(model => model.Name)
+    </span>
+    <span class="colLabel">
+        @Html.DisplayNameFor(model => model.Description)
+    </span>
+    <span class="colLabel">
+        @Html.DisplayNameFor(model => model.TaskDone)
+    </span>
+    <span class="colLabel">
+        @Html.DisplayNameFor(model => model.DueDate)
+    </span>
+
+        @foreach (var item in Model)
+    {
+    <div>
+        <span>
+            @Html.DisplayFor(modelItem => item.Name)
+        </span>
+        <span>
+            @Html.DisplayFor(modelItem => item.Description)
+        </span>
+        <span>
+            @Html.DisplayFor(modelItem => item.TaskDone)
+        </span>
+        <span>
+            @Html.DisplayFor(modelItem => item.DueDate)
+        </span>
+        <span>
+            @Html.ActionLink("Edit", "Edit", new { id = item.TaskID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.TaskID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.TaskID })
+        </span>
+    </div>
+    }
+
+    </div>

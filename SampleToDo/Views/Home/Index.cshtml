@@ -4,25 +4,26 @@
 
 <div class="jumbotron">
     <h1>SampleToDo</h1>
-    <p class="lead">SampleToDo is a simple ToDo web app created using ASP.NET MVC. This app allows users to create and manage ToDo lists. Any task on a list can be set to send users reminders through a variety of sources, and lists can be shared between users. Please enjoy, and if you have any suggestions or find any bugs you can find my contact information om the <a href="../Home/About/">About Us</a> page.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <p class="lead">SampleToDo is a simple ToDo web app created using ASP.NET MVC. This app allows users to create and manage ToDo lists. Any task on a list can be set to send users reminders through a variety of sources, and lists can be shared between users. Please enjoy, and if you have any suggestions or find any bugs you can find my contact information om the <a href="/Home/Contact/">Contact</a> page.</p>
+    <p><a href="/Home/About" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
 </div>
 
 <div class="row">
     <div class="col-md-4">
         <h2>Getting started</h2>
         <p>
-            To begin, please <a href="../Account/Login">Login</a>. Once you are logged-in you can <a href="/Manage/Index/">manage</a> your account.
+            To begin, please <a href="/Account/Login">Login</a> or <a href="/Account/Register">Register</a>. Once you are logged-in you can <a href="/Manage/Index/">manage</a> your account.
         </p>
+        <p><a class="btn btn-default" href="/Account/Index">Account &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <h2>Manage Lists</h2>
+        <p>You can <a href="/ToDoLists/Create">Create</a> or <a href="/ToDoLists/Index">View</a> your lists from the lists page.</p>
+        <p><a class="btn btn-default" href="/ToDoLists/Index">Lists &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <h2>Manage Tasks</h2>
+        <p>You can <a href="/ToDoTasks/Create">Create</a> or <a href="/ToDoTasks/Index">View</a> your tasks from the tasks page.</p>
+        <p><a class="btn btn-default" href="/ToDoTasks/Index">Tasks &raquo;</a></p>
     </div>
 </div>

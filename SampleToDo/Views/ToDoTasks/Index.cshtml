@@ -40,9 +40,9 @@
             @Html.DisplayFor(modelItem => item.DueDate)
         </span>
         <span>
-            @Html.ActionLink("Edit", "Edit", new { id = item.TaskID }) |
-            @Html.ActionLink("Details", "Details", new { id = item.TaskID }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.TaskID })
+            @Html.ActionLink("Edit", "Edit", new { id = item.ToDoTaskID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.ToDoTaskID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.ToDoTaskID })
         </span>
     </div>
     }

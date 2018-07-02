@@ -11,9 +11,9 @@ namespace SampleToDo.Models
 	{
 		[Key]
 		[Column(Order=1)]
-		public int ToDoId { get; }
+		public int ToDoListID { get; set; }
+
 		public string Name { get; set; }
-		//public int OwnerId { get; set; }
-		public ICollection<ToDoTask> ToDoTasks { get; set; }
+		public virtual ICollection<ToDoTask> ToDoTasks { get; set; }
 	}
 }

@@ -31,7 +31,7 @@ namespace SampleToDo.Models
         }
 
 		public System.Data.Entity.DbSet<SampleToDo.Models.ToDoTask> ToDoTasks { get; set; }
-
+		public System.Data.Entity.DbSet<SampleToDo.Models.ToDoList> ToDoLists { get; set; }
 		public System.Data.Entity.DbSet<SampleToDo.Models.Reminder> Reminders { get; set; }
 	}
 }

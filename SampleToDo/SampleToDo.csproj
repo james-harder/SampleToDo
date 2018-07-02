@@ -195,6 +195,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\RemindersController.cs" />
+    <Compile Include="Controllers\ToDoListsController.cs" />
     <Compile Include="Controllers\ToDoTasksController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -275,6 +276,11 @@
     <Content Include="Views\Reminders\Details.cshtml" />
     <Content Include="Views\Reminders\Edit.cshtml" />
     <Content Include="Views\Reminders\Index.cshtml" />
+    <Content Include="Views\ToDoLists\Create.cshtml" />
+    <Content Include="Views\ToDoLists\Delete.cshtml" />
+    <Content Include="Views\ToDoLists\Details.cshtml" />
+    <Content Include="Views\ToDoLists\Edit.cshtml" />
+    <Content Include="Views\ToDoLists\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

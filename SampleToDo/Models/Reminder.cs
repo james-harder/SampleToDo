@@ -7,9 +7,10 @@ namespace SampleToDo.Models
 	public class Reminder
 	{
 		[Key]
-		[Column(Order=1)]
-		public int ReminderID { get; }
-		public int TaskID { get; set; }
+		[Column(Order = 1)]
+		public int ReminderID { get; set; }
+
+		public ToDoTask ToDoTask { get; set; }
 		public DateTime ReminderDate { get; set; }
 		public bool Recurring { get; set; }
 		public string ReminderType { get; set; }

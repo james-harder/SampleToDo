@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SampleToDo.Models.ApplicationUser">
+    <Position X="3.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAACAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SampleToDo.Models.Reminder">
+    <Position X="8" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAABAAABAAAAAAAAAACAAAAAAAAACAAA=</HashCode>
+      <FileName>Models\Reminder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SampleToDo.Models.ToDoList">
+    <Position X="1.5" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAQAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ToDoList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SampleToDo.Models.ToDoListUsers">
+    <Position X="5.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\ToDoListUsers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SampleToDo.Models.ToDoTask">
+    <Position X="1.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgACgAAAAAAAQAAAAAAAACAAAEAAAAAAA=</HashCode>
+      <FileName>Models\ToDoTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.AspNet.Identity.EntityFramework.IdentityUser" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

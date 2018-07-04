@@ -10,12 +10,13 @@ using SampleToDo.Models;
 
 namespace SampleToDo.Controllers
 {
-    public class ToDoListsController : Controller
+	[Authorize]
+	public class ToDoListsController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: ToDoLists
-        public ActionResult Index()
+		public ActionResult Index()
         {
             return View(db.ToDoLists.ToList());
         }

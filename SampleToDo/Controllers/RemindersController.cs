@@ -10,7 +10,8 @@ using SampleToDo.Models;
 
 namespace SampleToDo.Controllers
 {
-    public class RemindersController : Controller
+	[Authorize]
+	public class RemindersController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 

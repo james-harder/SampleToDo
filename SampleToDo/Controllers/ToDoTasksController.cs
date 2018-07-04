@@ -10,7 +10,8 @@ using SampleToDo.Models;
 
 namespace SampleToDo.Controllers
 {
-    public class ToDoTasksController : Controller
+	[Authorize]
+	public class ToDoTasksController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
